@@ -1,11 +1,234 @@
-/* CSS files add styling rules to your content */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+* { padding: 0; margin: 0; }
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+height:100%;
+width:100%;
+}
+
+.topnav {
+overflow: hidden;
+background-color: #333;
+}
+
+.topnav a, a:visited{
+float: left;
+color: #f2f2f2;
+text-align: center;
+padding: 14px 30px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav a:hover {
+color:white;
+text-decoration: underline;
+}
+
+.topnav a.active {
+background-color: #e66b00;
+color: white;
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+padding-bottom: 30px;
+font-weight: bold;
+font-size:40px;
+font-family: "Apple Chancery";
+text-align: center;
+}
+
+h2{
+padding-bottom: 20px;
+font-style:italic;
+font-size:30px;
+font-family:"Times New Roman";
+text-decoration-line: underline;
+text-decoration-color:yellow;
+text-align: center;
+}
+
+h3{
+padding: 10px 10px 10px 0px;
+font-size:20px;
+font-family:"Times New Roman";
+}
+
+p{
+font-size:15px;
+line-height:200%;
+text-align:justify;
+}
+
+
+article {
+width: 90%;
+height: auto;
+margin: auto;
+padding: 10px;
+}
+
+section{
+width:100%;
+height:100%;
+margin:auto;
+}
+
+div#pic {
+width: 80%;
+float: left;
+}
+div#aside {
+width: 20%;
+float: right;
+}
+div#left, div#middle, div#right{
+    width:33%;
+    float:left;
+}
+
+div#left h3, div#middle h3, div#right h3{
+    text-align:center;
+}
+
+div#left .ul, div#left .ul_wide, div#middle .ul, div#middle .ul_wide, div#right .ul, div#right.ul_wide{
+    line-height:200%;
+}
+
+
+img{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+footer{
+position: relative;left: 0;
+bottom: 0;
+width: 100%;
+margin-top:20px;
+background-color:rgb(243, 243, 243);
+color:gray;
+font-size:14px;
+padding:20px 0px 20px 10px;
+float:left;
+}
+
+.name{
+font-weight:bold;
+font-style:italic;
+color: #29627e;
+}
+
+.link{
+    padding-top:30px;
+}
+
+.link a:link, .link a:visited{
+float:right;
+text-transform: uppercase;
+text-decoration: none;
+color:black;
+background-color: white;
+color: black;
+border: 2px solid black;
+padding: 10px 20px;
+text-align: center;
+text-decoration: none;
+}
+
+.link a:hover, .link a:active{
+    background-color:black;
+    color: white;
+}
+
+
+.ul, .ul_wide{
+    list-style: square outside none;
+    line-height: 150%;
+}
+
+
+.ul_wide li{
+    margin: 0.5em 0;
+}
+
+
+.nested_ul{
+    border-left: 1px solid gray;
+    list-style-type: none;
+    padding-left:16px;
+}
+
+.profile{
+    width:250px;
+    float:left;
+}
+div#aiba,div#jun,div#nino,div#ohno,div#sho{
+    width:250px;
+    float:left;
+    padding:0px 5px 0px 0px;
+}
+
+table#intro{
+    width:800px;
+    margin:100px 300px;
+}
+
+table#intro th{
+    text-align:right; 
+    padding:15px;
+}
+
+table#intro td{
+    text-align:left;
+    padding:15px 60px;
+}
+
+
+table#disco{
+    width:1000px;
+    margin:auto;
+}
+
+table#disco th { 
+    padding: 20px;
+    font-size:20px;
+    font-family:"Times New Roman";
+}
+
+table#disco td{
+    text-align:center;
+    padding:15px 15px;
+    border:1px solid lightgray;
+}
+
+
+table#timeline{
+    width:700px;
+    margin:auto;
+}
+
+table#timeline th { 
+    padding: 20px;
+    font-size:20px;
+    font-family:"Times New Roman";
+}
+
+table#timeline td{
+    text-align:center;
+    padding:15px 15px;
+}
+
+
+.heart{
+  display:inline-block;
+  width:15px;
+  height:13px;
+  padding-right:5px;
 }
