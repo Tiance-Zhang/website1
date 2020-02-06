@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Hello!</title>
+    <title>Arashi Fan Club</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -13,15 +13,63 @@
     <script src="/script.js" defer></script>
   </head>  
   <body>
-    <h1>Hi there!</h1>
-    
-    <p>
-      I'm your cool new webpage. Made with <a href="https://glitch.com">Glitch</a>!
-    </p>
+        <!-- the same header and nav bar acorss sites -->
+        <header>
+            <h1>
+                Arashi's Fan Club Site (Fake/偽)
+                </h1>
+        </header>
+            <nav class="topnav">
+                    <a class= "active" href="index.html">Home</a>
+                    <a href="news.html">News</a>
+                    <a href="discography.html">Discography</a>
+                    <a href="member.html">Member Profile</a>
+                    <a href="timeline.html">Group Timeline</a>
+            </nav>
 
+            <article>
+              <!-- separate the article field into two divs: picture + text(aside) -->
+                <div id = "pic">
+                  <img src = "http://images6.fanpop.com/image/photos/35700000/Arashi-arashi-35757850-1280-875.jpg" style="width:90%;" alt = "background" />
+                </div>
+                <div id = "aside">
+                    <h2>News</h2>
+                    <section>
+                      <!-- contains three sections; each with a h3 and a list of information -->
+                        <h3>TV/Media</h3>
+                        <ul class= "ul">
+                            <li> 10/30 NHK 'Good! Sports!' <span class= "name">Aiba Masaki</span></li>
+                            <li> 9/28 NTV 'ARASHI NI SHIYAGARE 3-HR Speical!' <span class= "name">Arashi</span></li>
+                            <li> CM McDonald's <span class= "name">Ohno Satoshi</span></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>New Release</h3>
+                            <ul class= "ul">
+                                <li> 9/17 DVD & Blueray "5x20 All the Best Clips 1999-2019!" is now on sale!</li>
+                                <li> 9/11 New Single "Brave" is now on sale!</li>
+                            </ul>
+                    </section>
+                    <section>
+                        <h3>Magazine</h3>
+                            <ul class= "ul">
+                                <li>9/25 KADOKAWA <span class = "name"> Sakurai Sho</span></li>
+                                <li>9/21 Asahi News <span class = "name">Sakurai Sho</span></li>
+                                <li>9/18 TV Guide <span class = "name">Sakurai Sho  Ninomiya Kazunari</span></li>
+                            </ul>
+                    </section>
+                  <!-- view more link to the news page -->
+                    <section  class = "link">
+                        <a href = "news.html">View More -- </a>
+                    </section>
+                </div>
+            </article> 
+    <!-- the same footer acorss pages -->
+            <footer>Edited By Feiyang Qian: feq6@pitt.edu</footer>
     <!-- include the Glitch button to show what the webpage is about and
           to make it easier for folks to view source and remix -->
     <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
     <script src="https://button.glitch.me/button.js"></script>
   </body>
 </html>
+
