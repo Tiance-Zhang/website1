@@ -13,7 +13,7 @@ width:100%;
 
 .topnav {
 overflow: hidden;
-background-color: #333;
+background-color: blue;
 }
 
 .topnav a, a:visited{
@@ -31,7 +31,7 @@ text-decoration: underline;
 }
 
 .topnav a.active {
-background-color: #e66b00;
+background-color: yellow;
 color: white;
 }
 
