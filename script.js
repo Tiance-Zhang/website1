@@ -2,7 +2,7 @@ console.log("Hello Webpage!");
 
 //const dictionary of each member's information
 
-const aibaInfo = {Name:"相葉雅紀", DOB:"1982/12/24", Birthplace:"Chiba, Japan", Movies:["Miracle: Devil Claus' Love and Magic (2014)", "Japan's Wildlife: The Untold Story (2012)", "Yellow Tears (2007)", "Pika**nchi Life Is Hard Dakara Happy (2004)", "Pika*nchi Life Is Hard Dakedo Happy (2002)"], Drama:["Sakanoue Animal Clinic Story (2018)","The Noble Detective (2017)","Your Story (2015)", "Last Hope (2013)", "Mikeneko Holmes no Suiri (2012)"]};
+const aibaInfo = {Name:"Wen Shang Yi ", DOB:"28 November 1976", Birthplace:"Hsin-Chu, Taiwan", Position:["Leader,Lead guitarist"] };
 
 const junInfo = {Name:"松本潤", DOB:"1983/08/30", Birthplace:"Tokyo, Japan", Movies:["Narratage (2017)","Girl In The Sunny Place (2013)","Boys Over Flowers: Final (2008)", "The Last Princess (2008)", "Yellow Tears (2007)"], Drama:["99.9 Criminal Lawyer Season II (2018)","99.9 Criminal Lawyer (2016)","Heartbroken Chocolatier (2014)", "Lucky Seven (2012)", "Summer Romance Shines in Rainbow Colors (2010)"]};
 
