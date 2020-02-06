@@ -144,7 +144,7 @@ text-decoration: none;
 }
 
 .link a:hover, .link a:active{
-    background-color:black;
+    background-color:red;
     color: white;
 }
 
@@ -233,3 +233,4 @@ table#timeline td{
   height:13px;
   padding-right:5px;
 }
+
