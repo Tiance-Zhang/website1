@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Activity 4</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>UNIVERSITY OF PITTSBURGH</h1>
+    <h2>
+      <img id="univ" alt="picture.jpg" src="https://cdn.glitch.com/8d10671e-b841-4c9d-a4c4-28fba3dff985%2FScreen%20Shot%202020-02-05%20at%202.03.06%20PM.png?v=1580929399657" class="math" width="200"
+height="100" align="up"/>
+    </h2>
+    
+    
+    <div class="form">
+      <form id="myForm" method="post">
+        <h3>Student Registration Information </h3>
+        <fieldset>
+        <legend>Student Info:</legend>
+        <label><span>Student Name:</span></label><input id="name" type="text" name="name" placeholder="Enter Student Name" /> 
+        <label><span>Email Address:</span></label><input id="email" type="text" name="email" placeholder="Enter Student Email Address" />
+        <label><span>Phone Number:</span></label><input id="phone" type = "text" name="phone" placeholder="Enter Student Phone Number(10 digits)" />   
+        <label><span>Class Name:</span></label><input id="classname" type="text" name="classname" placeholder="Enter Class Name" />
+        <p>
+          <input type="submit" class="button" value="Submit" /></p>
+        </fieldset>
+      </form>
+  </div>
+  <p>
+    Put the data from LocalStorage here! Or put it somewhere else, I don't care.
+  </p>
+  <button class="button" onclick="showInfo()">
+    Click here to show student's information
+  </button>
+  <p id="result"> </p>
+    
+   
+  </body>
+</html>
