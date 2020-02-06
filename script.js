@@ -4,13 +4,13 @@ console.log("Hello Webpage!");
 
 const aibaInfo = {Name:"Wen Shang Yi ", DOB:"28 November 1976", Birthplace:"Hsin-Chu, Taiwan", Position:["Leader,Lead guitarist"] };
 
-const junInfo = {Name:"松本潤", DOB:"1983/08/30", Birthplace:"Tokyo, Japan", Movies:["Narratage (2017)","Girl In The Sunny Place (2013)","Boys Over Flowers: Final (2008)", "The Last Princess (2008)", "Yellow Tears (2007)"], Drama:["99.9 Criminal Lawyer Season II (2018)","99.9 Criminal Lawyer (2016)","Heartbroken Chocolatier (2014)", "Lucky Seven (2012)", "Summer Romance Shines in Rainbow Colors (2010)"]};
+const junInfo = {Name:"Tsai Shen-yen", DOB:"25 April 1977", Birthplace:"Kaohsiung, Taiwan", Position:["Bass guitarist"]};
 
-const ninoInfo = {Name:"二宮和也", DOB:"1983/06/17", Birthplace:"Tokyo, Japan", Movies:["The Asada Family (2020)","Killing For The Prosecution (2018)","The Last Recipe (2017)", "Nagasaki: Memories of My Son (2015)", "Letters from Iwo Jima (2006)"], Drama:["Black Forceps (2018)","Baseball Brainiacs (2014)","Freeter, Ie wo Kau (2010)", "Ties of Shooting Stars (2008)", "Devil (2008)"]};
+const ninoInfo = {Name:"Chen Shin Hung", DOB:"6 December 1975", Birthplace:"Taipei, Taiwan", Position:["Lead vocalist"]};
 
-const ohnoInfo = {Name:"大野智", DOB:"1980/11/26", Birthplace:"Tokyo, Japan", Movies:["Mumon: The Land of Stealth (2017)","Kaibutsu-kun (2011)","Yellow Tears (2007)", "Pika**nchi Life Is Hard Dakara Happy (2004)", "Pika*nchi Life Is Hard Dakedo Happy (2002)"], Drama:["The Most Difficult Romance (2016)","Shinigami Kun (2014)","The Locked Room Murders (2012)", "Kaibutsu-kun (2010)", "Uta no Onii-san (2009)"]};
+const ohnoInfo = {Name:" Liu Yen-ming", DOB:"28 July 1973", Birthplace:"Miaoli, Taiwan", Position:["Drummer"]};
 
-const shoInfo = {Name:"櫻井翔", DOB:"1982/01/25", Birthplace:"Tokyo, Japan", Movies:["Laplace's Witch (2018)","The Chart of Love (2014)","The After-Dinner Mysteries (2013)", "In His Chart (2011)", "Yatterman (2009)"], Drama:["My High School Business (2017)","The Family Game (2013)","My Daddy Is an Idol! (2012)", "The After-Dinner Mysteries (2011)", "Legal Eagle, First Class (2010)"]};
+const shoInfo = {Name:"Shi Chin-hang", DOB:"11 December 1975", Birthplace:"Taipei, Taiwan", Position:["Rhythm guitarist"]};
 
 //when the mouse hover on top of the div/picture, the name will become visiable
 function showName(id){
