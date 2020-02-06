@@ -136,17 +136,3 @@ function hideDetails(){
     document.getElementById('intro').style.visibility = 'hidden';
 }
 
-//event listener catch the element clicked on the page
-//if the element belongs to the heart class, switch the src bewteen a hollow heart and a full heart pic.
-document.addEventListener('click', function(e) {
-    e = e || window.event;
-    var target = e.target || e.srcElement; 
-    var src = target.src;
-    if(target.className == "heart"){
-      if (src != "https://cdn.glitch.com/881cc85c-643a-4f85-8b01-d9585bb9d0ea%2FMedia-Icon-25-512.png?v=1569865432458"){
-        target.setAttribute("src","https://cdn.glitch.com/881cc85c-643a-4f85-8b01-d9585bb9d0ea%2FMedia-Icon-25-512.png?v=1569865432458");
-      }else {
-        target.setAttribute("src","https://image.flaticon.com/icons/png/512/69/69904.png");
-      }
-    }
-}, false);
