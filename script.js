@@ -135,4 +135,7 @@ function getDetailsSho(){
 function hideDetails(){
     document.getElementById('intro').style.visibility = 'hidden';
 }
-
+//add event listener also another event listener in index.html
+document.getElementById("myBtn").addEventListener("click", function(){
+    alert("Tiance Zhang Contact me: zhangtiance@gmail.com");
+});
